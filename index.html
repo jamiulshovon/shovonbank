@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bank</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<section id="loginPage">
+    
+    <div id="login-title"  class="text-center">
+        <h1>Welcome To My Bank</h1>
+    </div>
+   
+    <div id="login-area">
+        <h4>Login</h4> 
+        <input type="text" class="form-control" placeholder="Email" >
+        <br>
+        <input type="password" class="form-control" placeholder="Password">
+        <br>
+        <button id="submitBtn" class="btn btn-success">Login</button>
+    </div>
+</section>
+
+<section id="transactionArea">
+    <div class="row">
+   <div class="col-md-4">
+        <div class="deposit fixsize"> 
+            <h5>Deposit</h5>
+            <h2>$<span id ="currentdeposit">00</span></h2>
+         </div>
+   </div>
+   <div class="col-md-4">
+      <div class="withdraw fixsize">
+        <h5>Withdraw</h5>
+        <h2>$<span id ="currentwithdraw">00</span></h2>
+      </div>
+   </div>
+   <div class="col-md-4">
+      <div class="balance fixsize">
+        <h5>Balance</h5>
+        <h2>$<span id ="currentbalance">1000</span></h2>
+      </div>
+   </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="enterdeposit">
+            <h3>Deposit</h3>
+            <input type="text" id="depositAmount" placeholder="$ Amount you want to deposit" class="form-control">
+            <br><br>
+            <button class="btn btn-success" id="depositbtn">Deposit</button>
+        </div>
+
+    </div>
+    <div class="col-md-6">
+<div class="enterwithdraw">
+    <h3>Withthdraw</h3>
+    <input type="text" id="withdrawAmount" placeholder="$ Amount you want to withdraw" class="form-control">
+    <br><br>
+    <button class="btn btn-warning" id="withdrawbtn">withdraw</button>
+</div>
+    </div>
+</div>
+</section>
+
+
+
+<script src="javascript.js"></script>
+</body>
+</html>

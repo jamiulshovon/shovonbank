@@ -1,0 +1,7 @@
+   const getBalanceId = document.getElementById("currentbalance").innerText;
+     const parseBalanceId = parseFloat(getBalanceId);
+     const getAddedDeposit = document.getElementById("depositAmount").value;
+     const parseAddedDeposit = parseFloat(getAddedDeposit);
+     const totalBalance = parseBalanceId+parseAddedDeposit;
+     document.getElementById("currentbalance").innerText=totalBalance;
+ 
