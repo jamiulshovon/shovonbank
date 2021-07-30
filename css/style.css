@@ -5,9 +5,9 @@
 #login-area{
     border: 20px;
     margin-top: 50px;
-    margin-left: 110px;
-    margin-right: 90px;
-    padding: 80px;
+    padding: 50px;
+    margin-right: 50px;
+    margin-left: 70px;
     border-radius:10px;
     box-shadow: 10px 10px 15px gray;
 }
